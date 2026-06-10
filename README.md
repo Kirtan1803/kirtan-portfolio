@@ -1,36 +1,182 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kirtan Tanti Portfolio
 
-## Getting Started
+A modern full-stack developer portfolio showcasing my projects, technical skills, education, and professional experience.
 
-First, run the development server:
+## Live Website
+
+🌐 Portfolio: https://kirtan-portfolio-pi.vercel.app/
+
+## About
+
+I am a Computer Engineering graduate from Gujarat Technological University (GTU) with a strong interest in full-stack web development. I enjoy building scalable web applications, designing intuitive user experiences, and solving real-world problems through technology.
+
+This portfolio highlights my projects, technical expertise, academic background, and professional experience.
+
+## Featured Projects
+
+### PetPal
+
+PetPal is a full-stack pet adoption and management platform designed to simplify interactions between adopters and animal shelters.
+
+**Key Features**
+
+* Pet listing and management
+* Adoption request workflow
+* Role-based access control
+* REST API integration
+* Responsive user interface
+
+**Tech Stack**
+
+* React.js
+* Django
+* Django REST Framework
+* MySQL
+* HTML5
+* CSS3
+
+**Repository**
+
+* https://github.com/Kirtan1803/PetPal-fullstack
+
+---
+
+### GoodNews
+
+GoodNews is a positive news aggregation platform that collects and presents uplifting news articles in a clean and accessible interface.
+
+**Key Features**
+
+* News aggregation
+* Category-based browsing
+* Firebase integration
+* Responsive design
+* User-friendly content discovery
+
+**Tech Stack**
+
+* React.js
+* Firebase Authentication
+* Firebase Firestore
+* JavaScript
+* HTML5
+* CSS3
+
+**Repository**
+
+* https://github.com/Kirtan1803/GoodNews-react-firebase
+
+## Technical Skills
+
+### Frontend
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+### Backend
+
+* Python
+* Django
+* REST APIs
+
+### Database
+
+* MySQL
+* Firebase Firestore
+
+### BaaS
+
+* Firebase Authentication
+* Firebase Firestore
+
+### Tools
+
+* Git
+* GitHub
+* Postman
+
+## Education
+
+### Bachelor of Engineering (Computer Engineering)
+
+**Shree Swaminarayan Institute of Technology**
+Gujarat Technological University (GTU)
+2022 – 2026
+CGPA: 8.12 / 10
+
+### Higher Secondary Education (12th HSC)
+
+**Adani Vidya Mandir**
+2022 Pass Out
+Percentage: 72%
+
+## Professional Experience
+
+### Web Developer Intern
+
+**Stark Technologies**
+
+**Responsibilities**
+
+* Developed and maintained responsive web applications.
+* Assisted in frontend and backend feature implementation.
+* Worked with APIs and database integrations.
+* Collaborated on debugging, testing, and deployment tasks.
+
+## Contact
+
+📧 Email: [kirtantanti23@gmail.com](mailto:kirtantanti23@gmail.com)
+
+💼 LinkedIn: https://www.linkedin.com/in/kirtan-tanti-b43bb0255
+
+🐙 GitHub: https://github.com/Kirtan1803
+
+📱 Phone: +91 9313566349
+
+📍 Ahmedabad, Gujarat, India
+
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Kirtan1803/kirtan-portfolio.git
+```
+
+Navigate into the project:
+
+```bash
+cd kirtan-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+This portfolio is deployed on Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Production URL:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://kirtan-portfolio-pi.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open for learning and reference purposes. Please do not copy the content, branding, or personal information without permission.
