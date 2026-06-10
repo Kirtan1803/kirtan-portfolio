@@ -13,15 +13,32 @@ export const metadata: Metadata = {
     default: "Kirtan Tanti | Full Stack Developer",
     template: "%s | Kirtan Tanti",
   },
-  description: "Building modern web applications with React, Django, Firebase, and modern APIs.",
-  metadataBase: new URL("https://kirtantanti.dev"),
+  description: "Full Stack Developer focused on building modern web applications using React, Django, Firebase, and REST APIs.",
+  metadataBase: new URL("https://kirtan-portfolio-pi.vercel.app"),
   alternates: {
     canonical: "/",
   },
+  keywords: [
+    "Kirtan Tanti",
+    "Full Stack Developer",
+    "React",
+    "Django",
+    "Firebase",
+    "REST APIs",
+    "MySQL",
+    "Firestore",
+    "Computer Engineering",
+    "GTU",
+    "Shree Swaminarayan Institute of Technology",
+    "Adani Vidya Mandir",
+    "Ahmedabad",
+    "Gujarat",
+    "Developer Portfolio",
+  ],
   openGraph: {
     title: "Kirtan Tanti | Full Stack Developer",
-    description: "Building modern web applications with React, Django, Firebase, and modern APIs.",
-    url: "https://kirtantanti.dev",
+    description: "Full Stack Developer focused on building modern web applications using React, Django, Firebase, and REST APIs.",
+    url: "https://kirtan-portfolio-pi.vercel.app",
     siteName: "Kirtan Tanti Portfolio",
     images: [
       {
@@ -37,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Kirtan Tanti | Full Stack Developer",
-    description: "Building modern web applications with React, Django, Firebase, and modern APIs.",
+    description: "Full Stack Developer focused on building modern web applications using React, Django, Firebase, and REST APIs.",
     images: ["/og-image.png"],
   },
   robots: {
