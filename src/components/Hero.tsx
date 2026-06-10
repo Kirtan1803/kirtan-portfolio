@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ArrowDown, Mail, Download, Code, GraduationCap, Briefcase, UserCheck } from "lucide-react";
+import { ArrowDown, Mail, Download, Code, GraduationCap, Briefcase, UserCheck, Eye } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -105,6 +105,16 @@ export default function Hero() {
           >
             <span>View Projects</span>
             <ArrowDown size={16} />
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg text-sm font-semibold border border-border bg-card/60 text-foreground hover:bg-card hover:border-muted/50 active:scale-95 transition-all"
+          >
+            <Eye size={16} />
+            <span>View Resume</span>
           </a>
 
           <a

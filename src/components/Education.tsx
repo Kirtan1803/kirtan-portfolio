@@ -49,21 +49,21 @@ export default function Education() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: idx * 0.1 }}
-            className={`p-6 rounded-2xl border bg-card/20 backdrop-blur-sm relative flex flex-col justify-between h-full transition-all hover:border-muted/30 ${
+            className={`p-6 rounded-2xl border bg-card/20 backdrop-blur-sm flex flex-col justify-between h-full transition-all hover:border-muted/30 ${
               item.isPrimary ? "border-primary/30" : "border-border"
             }`}
           >
-            {/* Primary badge */}
-            {item.isPrimary && (
-              <span className="absolute top-4 right-4 text-[9px] font-bold uppercase tracking-wider bg-primary/10 text-primary px-2.5 py-0.5 rounded-full border border-primary/20">
-                Primary
-              </span>
-            )}
-
             <div>
-              <div className="flex items-center gap-2 text-primary font-semibold text-sm mb-2">
-                {item.icon}
-                <span>{item.degree}</span>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-3">
+                <div className="flex items-center gap-2 text-primary font-semibold text-sm">
+                  {item.icon}
+                  <span>{item.degree}</span>
+                </div>
+                {item.isPrimary && (
+                  <span className="self-start md:self-auto text-[9px] font-bold uppercase tracking-wider bg-primary/10 text-primary px-2.5 py-0.5 rounded-full border border-primary/20 whitespace-nowrap">
+                    Primary
+                  </span>
+                )}
               </div>
 
               <h3 className="text-white font-bold text-lg mb-1">

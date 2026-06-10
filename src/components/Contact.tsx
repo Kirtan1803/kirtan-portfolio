@@ -1,7 +1,6 @@
 "use client";
 
-import React from "react";
-import { Mail, Phone, MapPin, Download } from "lucide-react";
+import { Mail, Phone, MapPin, Download, Eye } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 
@@ -85,6 +84,16 @@ export default function Contact() {
               >
                 <LinkedinIcon size={14} />
                 <span>LinkedIn</span>
+              </a>
+
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-semibold border border-border bg-card/40 text-foreground hover:bg-card hover:border-muted/50 active:scale-95 transition-all"
+              >
+                <Eye size={14} />
+                <span>View Resume</span>
               </a>
 
               <a

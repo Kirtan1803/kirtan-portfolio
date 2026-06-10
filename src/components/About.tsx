@@ -23,7 +23,7 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
         >
-          I am a Full Stack Developer with a background in Computer Engineering and hands-on experience building web applications using React, Django, Firebase, MySQL, and REST APIs.
+          I am a Computer Engineering graduate from Gujarat Technological University (GTU) with practical experience building modern web applications using React, Django, Firebase, MySQL, and REST APIs.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -31,7 +31,7 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.1 }}
         >
-          My interest lies in designing responsive user interfaces, developing backend systems, building authentication workflows, and creating reliable database-driven applications.
+          During my internship at Stark Technologies, I worked on frontend development, responsive user interfaces, API integration, and database-driven web applications. This experience strengthened my understanding of real-world software development workflows and collaborative engineering practices.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -39,7 +39,7 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.2 }}
         >
-          Through academic projects and industry experience, I have worked on full-stack solutions ranging from news platforms to pet adoption systems, focusing on clean code, maintainable architecture, and practical user experiences.
+          I enjoy creating clean, maintainable, and user-focused applications that solve practical problems. My interests include full-stack development, scalable web architecture, performance optimization, and modern frontend technologies.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -47,7 +47,7 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.3 }}
         >
-          I enjoy learning modern web technologies and continuously improving my understanding of software development, system design, and application scalability.
+          Currently, I am seeking opportunities as a Full Stack Developer, Software Developer, or Frontend Developer where I can continue learning, contribute to impactful projects, and grow as an engineer.
         </motion.p>
       </div>
     </section>

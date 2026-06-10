@@ -1,25 +1,25 @@
 "use client";
 
 import React from "react";
-import { Compass, BookOpen, Key, Layout, Code } from "lucide-react";
+import { BookOpen, Cpu, Code, Layers, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 
 const EXPLORING_TOPICS = [
   {
     icon: <Code className="text-primary" size={20} />,
-    title: "Advanced Django REST Framework features",
+    title: "Next.js 15",
   },
   {
-    icon: <Key className="text-accent" size={20} />,
-    title: "Authentication and authorization flows",
+    icon: <Cpu className="text-accent" size={20} />,
+    title: "React Server Components",
   },
   {
-    icon: <Layout className="text-emerald-500" size={20} />,
-    title: "React application patterns",
+    icon: <Layers className="text-emerald-500" size={20} />,
+    title: "Performance Optimization",
   },
   {
-    icon: <BookOpen className="text-amber-500" size={20} />,
-    title: "Full-stack web development practices",
+    icon: <Sparkles className="text-amber-500" size={20} />,
+    title: "System Design Fundamentals",
   },
 ];
 
@@ -28,10 +28,10 @@ export default function CurrentlyBuilding() {
     <section className="py-12 border-t border-border/40">
       <div className="flex items-center gap-3 mb-8">
         <div className="p-2 rounded-lg bg-primary/10">
-          <Compass className="text-primary" size={20} />
+          <BookOpen className="text-primary" size={20} />
         </div>
         <h2 className="text-2xl font-bold tracking-tight text-white">
-          Currently Exploring
+          Currently Learning
         </h2>
       </div>
 

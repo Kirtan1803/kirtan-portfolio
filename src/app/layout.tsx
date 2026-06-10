@@ -74,6 +74,22 @@ export default function RootLayout({
       className={`${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background text-foreground flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Kirtan Tanti",
+              "jobTitle": "Full Stack Developer",
+              "url": "https://kirtan-portfolio-pi.vercel.app",
+              "sameAs": [
+                "https://github.com/Kirtan1803",
+                "https://www.linkedin.com/in/kirtan-tanti-b43bb0255"
+              ]
+            })
+          }}
+        />
         {children}
       </body>
     </html>
